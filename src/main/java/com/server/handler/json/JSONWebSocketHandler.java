@@ -1,8 +1,8 @@
-package com.server.handler;
+package com.server.handler.json;
 
 import java.io.IOException;
 import java.util.logging.Logger;
-
+import com.server.handler.IWebSocketHandler;
 import com.server.model.WebRequest;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

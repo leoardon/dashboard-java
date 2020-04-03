@@ -1,14 +1,14 @@
-package com.server.handler;
+package com.server.handler.json;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Logger;
+import com.server.handler.IHttpHandler;
 import com.server.model.WebRequest;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
